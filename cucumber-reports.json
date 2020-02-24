@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-24T12:01:47.828Z",
+        "line": 8,
+        "name": "Successful registration",
+        "description": "",
+        "id": "registration-in-testmeapp;successful-registration;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24356306300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "access the URL",
+            "match": {
+              "location": "Register.access_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2129377100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters \"santhi\" , \"santhi\" , \"gutti\" , \"prashu23\" , \"prashu23\" , \"Female\" , \"santhi.gutti@gmail.com\" , \"1234567890\" , \"18/11/1996\" , \"andhra pradesh\" , \"what is your plant name\" , \"chinnu\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"santhi\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"santhi\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"gutti\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"prashu23\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"prashu23\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Female\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"santhi.gutti@gmail.com\"",
+                  "offset": 81
+                },
+                {
+                  "val": "\"1234567890\"",
+                  "offset": 108
+                },
+                {
+                  "val": "\"18/11/1996\"",
+                  "offset": 123
+                },
+                {
+                  "val": "\"andhra pradesh\"",
+                  "offset": 138
+                },
+                {
+                  "val": "\"what is your plant name\"",
+                  "offset": 157
+                },
+                {
+                  "val": "\"chinnu\"",
+                  "offset": 185
+                }
+              ],
+              "location": "Register.user_enters(String,String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on submit button",
+            "match": {
+              "location": "Register.click_on_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration in TestmeApp",
+    "description": "",
+    "id": "registration-in-testmeapp",
+    "keyword": "Feature",
+    "uri": "classpath:cs1/register.feature",
+    "tags": []
+  }
+]
